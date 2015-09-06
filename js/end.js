@@ -1,0 +1,5 @@
+function end_create()
+{
+	background = this.game.add.image(0, 0, 'pic_end');
+	this.game.time.events.loop(Phaser.Timer.SECOND*5, back_to_menu, this);
+}
